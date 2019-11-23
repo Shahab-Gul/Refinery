@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <style>
+
+    .oval {
+        height: 30px;
+        width: 90px;
+        border-radius: 70%;
+        border-color: red;
+        border-style: solid;
+        border-width: 2px;
+        padding-top: 20px;
+        margin-left: 400px;
+        
+      }
+
+      
+
+      
+      
+    </style>
+</head>
+<body>
+
+
+    <table>
+            <caption style="color: red;" >
+            <div class="oval" style="margin-top: 40px;">CMR</div> <div style="margin-right: 180px;">NOTE D'EXPÉDITION INTERNATIONALE </div> 
+          </caption>
+
+    </table>
+
+    <!-- First Portion start Here -->
+    <table width="100%" bordercolor = "red" class="First">
+        <tr style="color: red;">
+            <td></td>
+            <td>1</td>
+            <td>Exppediteur (nom, adress, pays)</td>
+            <td>6</td>
+            <td> Transporteur (nom,adrese,pays,autres references)</td>
+        </tr>
+
+            <tr style="color: red;">
+                    <td></td>
+                    <td rowspan="4"></td>
+                    <td> [senderName]</td>
+                    <td rowspan="4"></td>
+                    <td>[carrierName]</td>
+            </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                <td> [senderAddress]</td>
+                <td>[carrierAddress]</td>
+        </tr>
+
+
+    <tr style="color: red;">
+            <td></td>
+            <td>[senderCountry]</td>
+            <td>[carrierCountry]</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td style="color: red;">[carrierRef]</td>
+    </tr>
+    <!-- First portion ends here -->
+
+
+    <!-- second portion start here -->
+    <tr style="color: red;">
+            <td></td>
+            <td>2</td>
+            <td >Destinataire (nom, adress, pays)</td>
+            <td>7</td>
+            <td> Transporteur successful</td>
+        </tr>
+
+            <tr style="color: red;">
+                    <td></td>
+                    <td rowspan="4"></td>
+                    <td> [consigneeName]</td>
+                    <td></td>
+                    <td>[suddessiveCarrierName]</td>
+        </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                <td>[consigneeAddress]</td>
+                <td> </td>
+                <td>[successiveCarrierAddress]</td>
+                <td></td>
+    </tr>
+
+
+    <tr style="color: red;">
+            <td></td>
+            <td>[consigneeCountry]</td>
+            <td> </td>
+            <td>[successiveCarrierCountry]</td>
+            <td></td>
+</tr>
+
+    <tr style="color: red;">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>receipt and acceptance  Date [date]   Signature [signature] </td>
+        <td>  </td>
+    </tr>
+<!-- second portion ends here -->
+
+
+
+ <!-- Third portion start here -->
+ <tr style="color: red;">
+        <td></td>
+        <td>3</td>
+        <td>Reprendre la marchandise</td>
+        <td>8</td>
+        <td> Reserves et observations du transporteur sur la reprise de la </td>
+    </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                <td rowspan="4"></td>
+                <td> place      [talkingGoodPlace]</td>
+                <td></td>
+                <td>marchendise</td>
+    </tr>
+
+    <tr style="color: red;">
+            <td></td>
+            <td>Country    [talkingGoodsCountry</td>
+            <td></td>
+            <td>[CarrierReservations]</td>
+            <td></td>
+</tr>
+
+
+<tr style="color: red;">
+        <td></td>
+        <td>Date    [goodsDeliveryCountry]</td>
+        <td> </td>
+        <td rowspan="6"></td>
+        <td></td>
+</tr>
+
+<tr style="color: red;">
+    <td></td>
+    <td>Time of Arrival [takingT1]    Time of Departure [takingT2]</td>
+    <td></td>
+    <td></td>
+    <td>  </td>
+</tr>
+<!-- Third Portion ends here -->
+
+
+<!-- four portion start here -->
+<tr style="color: red;">
+        <td></td>
+        <td>4</td>
+        <td>Livrasion de la marchandle</td>
+        <td></td>
+        <td> </td>
+    </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                
+                <td></td>
+                <td> place      [talkingGoodPlace]</td>
+                <td></td>
+                <td></td>
+    </tr>
+
+    <tr style="color: red;">
+            <td></td>
+            <td></td>
+            <td>Country    [goodsDeliveryPlace]</td>
+            <td></td>
+            <td></td>
+</tr>
+
+
+<tr style="color: red;">
+        <td></td>
+        <td></td>
+        <td> Warehouse opening hours    [deliveryWarehouseHours]</td>
+        <td></td>
+        <td></td>
+</tr>
+
+<!-- four Portion ends here -->
+
+
+<!-- fifth portion start here -->
+<tr style="color: red;">
+        <td></td>
+        <td>5</td>
+        <td>Sender's instructions</td>
+        <td>9</td>
+        <td> Docuement handed to carrier by the sender</td>
+    </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                <td></td>
+                <td>[Senderinstructions]</td>
+                <td></td>
+                <td>[DocumentsSenderToCarrier]</td>
+    </tr>
+
+    <tr style="color: red;">
+            <td></td>
+            <td></td>
+            <td>Country    [goodsDeliveryPlace]</td>
+            <td></td>
+            <td></td>
+</tr>
+
+
+
+<!-- fifth Portion ends here -->
+
+
+<!-- sixth portion start here -->
+<tr style="color: red;">
+        <td></td>
+        <td>10</td>
+        <td>Marks & Nos| 11 Number of Packages | 12 Method Of Packaging</td>
+        <td></td>
+        <td>
+            <table width="100%">
+                <tr>
+                    <td>14 Gross Weight </td>
+                    <td>15 Volume In m3 </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    
+
+        <tr style="color: red;">
+                <td></td>
+                <td></td>
+                <td>[Marks&Nos]  [NumberOfPackages]   [PackageingMethode] </td>
+                <td></td>
+                <td>
+                <table width="100%">
+                    <tr>
+                            <td>[Weight]</td>
+                            <td>[Volume]</td>
+                    </tr>
+                </table>
+               
+                </td>
+
+
+              
+
+    </tr>
+
+<!-- sixth Portion ends here -->
+
+    
+<!-- seven portion start here -->
+<tr style="color: red;">
+        <td></td>
+        <td>13</td>
+        <td>Nature Of Goods | Un Number | Label Number | Packaging Group</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+        <tr style="color: red;">
+                <td></td>
+                <td></td>
+                <td>[Nature Of Good] [UNnumbers] [LabelNumber] [packagaingGroup]</td>
+                <td></td>
+                <td></td>
+    </tr>
+
+<!-- seven Portion ends here -->
+
+ <!-- eigth Portion start Here -->
+ <tr style="color: red;">
+    <td></td>
+    <td>16</td>
+    <td>Special agreement between the sender and the carrier</td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td>17 to be paid </td>
+                <td>Sender </td>
+                <td>Consigne </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td>[SpecialAgreement]</td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td> Carriage Charger </td>
+                <td>[SCarriageCharges] </td>
+                <td>CCarriageCharges </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td> Supplementary <br>charges</td>
+                <td>[SSuppCharges] </td>
+                <td>[CSuppCharges] </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td> Custom Duties <br>charges</td>
+                <td>[SCustomDuties] </td>
+                <td>[CCustomDuties] </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td> Other Charges <br>charges</td>
+                <td>[SOtherCharges] </td>
+                <td>[COtherCharges] </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- nine portion ends here -->
+
+
+   
+
+
+<tr style="color: red;">
+    <td></td>
+    <td>18</td>
+    <td>Other useful particulars</td>
+    <td>19</td>
+    <td> Cash on Delivery</td>
+</tr>
+
+    <tr style="color: red;">
+            <td></td>
+            <td></td>
+            <td>[Particulars]</td>
+            <td></td>
+            <td></td>
+</tr>
+
+
+<tr style="color: red;">
+    <td></td>
+    <td>20</td>
+    <td colspan="3" style="width: 100%;">This Carriage is subject notwithstanding any clause to the convention on the contract for the international carriage fo goods by <br> road |CMR|  </td>
+    <td></td>
+    <td>  </td>
+</tr>
+
+
+<!-- nine portion ends here  problem in this section-->
+
+ 
+<!-- ten section start here -->
+
+<tr style="color: red;">
+    <td></td>
+    <td>21</td>
+    <td>Established In</td>
+    <td>24</td>
+    <td>Good Received</td>
+</tr>
+
+    <tr style="color: red;">
+            <td></td>
+            <td></td>
+            <td>[Date]</td>
+            
+
+            <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td>Time Of Arrival</td>
+                <td>Time of Departure </td>
+               
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+<tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+        <table width="100%">
+            <tr>
+                <td>[TimeOfArr]</td>
+                <td>[TimeOfDepart] </td>
+                
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+
+
+
+<!-- ten section ends here -->
+
+            
+
+<!-- 11 section start here -->
+
+
+tr style="color: red;">
+    <td></td>
+    <td></td>
+    <td colspan="3" style="width: 100%; color: red;"> Non-Contractual part reserved for the carrier  </td>
+    <td></td>
+    <td>  </td>
+</tr>
+
+    
+<!-- 11 section ends here -->
+
+
+      
+    </table>
+
+    
+    
+            
+
+    
+    
+</body>
+</html>
